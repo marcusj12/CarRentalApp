@@ -31,4 +31,13 @@ public class Car {
     public void setRented(boolean rented) {
         isRented = rented;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", isRented=" + isRented +
+                '}';
+    }
 }

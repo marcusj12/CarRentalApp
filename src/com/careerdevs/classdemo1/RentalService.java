@@ -47,7 +47,7 @@ public class RentalService {
 
         int userSelection = UI.readInt("Select a A Menu Option", 1, 3); // Used to read integer selction; create variable to store selction
         System.out.println(userSelection);
-    // value we're testing against is userSelection
+    // value we're testing against is userSelection..
         switch (userSelection) {
             case 1 -> rentalMenu();
             case 2 -> returnMenu();
